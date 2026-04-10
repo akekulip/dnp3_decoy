@@ -1,0 +1,16 @@
+### Paste these into bfshell (not bfrt_python) to get hardware resource info ###
+### Run: $SDE_INSTALL/bin/bfshell                                            ###
+
+### --- UCLI: MAU stage table info --- ###
+ucli
+# Show all MAU table info (TCAM/SRAM per stage)
+bf_rt debug table-info
+pm show
+exit
+
+### --- bfrt_python: detailed table query --- ###
+bfrt_python
+exec(open('/home/philip/dnp3_decoy/tools/query_resources.py').read())
+exit
+
+exit

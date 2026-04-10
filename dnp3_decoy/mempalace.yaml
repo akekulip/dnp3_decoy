@@ -1,0 +1,25 @@
+wing: dnp3_decoy
+rooms:
+- name: testing
+  description: Files from tests/
+  keywords:
+  - testing
+  - tests
+- name: src
+  description: Files from src/
+  keywords:
+  - src
+  - src
+- name: scripts
+  description: Files from tools/
+  keywords:
+  - scripts
+  - tools
+- name: controller
+  description: Files from controller/
+  keywords:
+  - controller
+  - controller
+- name: general
+  description: Files that don't fit other rooms
+  keywords: []
